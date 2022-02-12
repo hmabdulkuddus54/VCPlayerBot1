@@ -31,23 +31,23 @@ except ModuleNotFoundError:
 class Config:
     #Telegram API Stuffs
     load_dotenv()  # load enviroment variables from .env file
-    ADMIN = os.environ.get("ADMINS", '')
+    ADMIN = os.environ.get("ADMINS", '1783730975')
     SUDO = [int(admin) for admin in (ADMIN).split()] # Exclusive for heroku vars configuration.
     ADMINS = [int(admin) for admin in (ADMIN).split()] #group admins will be appended to this list.
-    API_ID = int(os.environ.get("API_ID", ''))
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")     
-    SESSION = os.environ.get("SESSION_STRING", "")
+    API_ID = int(os.environ.get("API_ID", '7361762'))
+    API_HASH = os.environ.get("API_HASH", "fffa021a2ce0ed383eac2f53b49af2e4")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "2133996285:AAHwNhfXBX2g5en57hX5MGXC7sVEhF0hrhI")     
+    SESSION = os.environ.get("SESSION_STRING", "BQBbnq2JVybkuG1WlbblEpORAGNuY1IBgPD2pO68D0PvHF_0aHhnBUs3K79j9DR5VBlVpZKfYSRGJ8OlIAO9-c7iNOIa67QxyAXqsG1NH0ryMnfb6HGxYzvHsHueK9Tq1Wk6uzgR-FeG9Xk297RIls9wWZGlbltrRwhUsBTEsF_raFrGrxnVjVFSUkZYKMXZ9-8DuCUCA8n62GttpGFNsO2DvS4SaQOfX1OI9ma7fdpiHNid0PKwDdlGXOiHCTKAt7MfSsujYNLE3uw2jo6Gd4ttHfB2s5U0AmiRzB7lFkiX7KbiqdzGeNbLFMtKB9cdACzyxnqIdEPE0gHjgyDl0IgdbaYYpAA")
 
     #Stream Chat and Log Group
-    CHAT = int(os.environ.get("CHAT", ""))
-    LOG_GROUP=os.environ.get("LOG_GROUP", "")
+    CHAT = int(os.environ.get("CHAT", "-1001234819535"))
+    LOG_GROUP=os.environ.get("LOG_GROUP", "-1001234819535")
 
     #Stream 
-    STREAM_URL=os.environ.get("STARTUP_STREAM", "https://www.youtube.com/watch?v=zcrUCvBD16k")
+    STREAM_URL=os.environ.get("STARTUP_STREAM", "https://m-c01-j2apps.s.llnwi.net/live/0781.9XJalwa.in_480p/index.m3u8?token=soheliptv01826655778")
    
     #Database
-    DATABASE_URI=os.environ.get("DATABASE_URI", None)
+    DATABASE_URI=os.environ.get("DATABASE_URI", "mongodb+srv://bisnu:bisnuray@cluster0.ubkwj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority" )
     DATABASE_NAME=os.environ.get("DATABASE_NAME", "VCPlayerBot")
 
 
