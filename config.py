@@ -44,7 +44,7 @@ class Config:
     LOG_GROUP=os.environ.get("LOG_GROUP", "-1001234819535")
 
     #Stream 
-    STREAM_URL=os.environ.get("STARTUP_STREAM", "https://m-c01-j2apps.s.llnwi.net/live/0781.9XJalwa.in_480p/index.m3u8?token=soheliptv01826655778")
+    STREAM_URL=os.environ.get("STARTUP_STREAM", "http://d2q8p4pe5spbak.cloudfront.net/bpk-tv/9XM/9XM.isml/9XM-audio_208482_und=208000-video=877600.m3u8")
    
     #Database
     DATABASE_URI=os.environ.get("DATABASE_URI", "mongodb+srv://bisnu:bisnuray@cluster0.ubkwj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority" )
