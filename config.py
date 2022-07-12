@@ -31,17 +31,17 @@ except ModuleNotFoundError:
 class Config:
     #Telegram API Stuffs
     load_dotenv()  # load enviroment variables from .env file
-    ADMIN = os.environ.get("ADMINS", '1783730975')
+    ADMIN = os.environ.get("ADMINS", '5315473510')
     SUDO = [int(admin) for admin in (ADMIN).split()] # Exclusive for heroku vars configuration.
     ADMINS = [int(admin) for admin in (ADMIN).split()] #group admins will be appended to this list.
-    API_ID = int(os.environ.get("API_ID", '7361762'))
-    API_HASH = os.environ.get("API_HASH", "fffa021a2ce0ed383eac2f53b49af2e4")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "2133996285:AAHwNhfXBX2g5en57hX5MGXC7sVEhF0hrhI")     
-    SESSION = os.environ.get("SESSION_STRING", "BQBHQ6K9CppySMJCyWT9sTw6CS4G6HJ77BvgrPpMcWfAq13JPU39D7Qmmo6oW6p5yYelMDQVkPh27wnEAWwOh-Ml_bNBvCMHXETIvcECMTVNd7aijD41HgtUlR24ulPiFV4Yn-CrxNWJQ1kIFRlmZ9FoVmrrS99UbMlyr7ob3eV-9xm0PKyPa3SUbYiiT7yiSdp8A3ZPA88n1KkPwhkj9N6SiQ7GjYv6b9F3XS4AvSKXbF3Fv5nBGYql7WIJzh5oqEtO773S5WEqAJ8T3RhMiiAirAmQQzhUkbklvPBGKa88Kfvb6bwOAK28Pzh8rzkMlId2f48IdOMMvIYvHdbSNE5lbaYYpAA")
+    API_ID = int(os.environ.get("API_ID", '19076488'))
+    API_HASH = os.environ.get("API_HASH", "98e471abc04bd8febc1226d81ecef0c7")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5442865811:AAHIusPfeO15Uk22I6Pg3cAdoF2IBWT4PU4")     
+    SESSION = os.environ.get("SESSION_STRING", "BQBc0eWTfg3zRHHadrBFBkMhtFch9WKeaepEHDy2X7X7fuqyGmGW9N76k_qxpvVvuToBYrt0KcO6xmAhKcf3jP2CoR98tE9udCl9aiREq-5gR_ENtU5XmMLGY9d-SLy1BNPw0JpEiSnEKWpthv6N_0sKMh2IoOISGpo4PtqEVhK0fWJgAoXFBKQMDs3OyeeUsHEdlyZOy0fjgln76nWTenTyHGmgXx4XmehGe3_Wl49emgT8EtMaQDcAhxLdLJz1crSck-ff5ASmveNCQsDBOKQnuF_IZgJ2f5fZfmr3oBQRL4tO6HpHLDFlN41VfB5uJAiQZK3HlCjwzbSdjCREkJLLAAAAATzTsGYA")
 
     #Stream Chat and Log Group
-    CHAT = int(os.environ.get("CHAT", "-1001234819535"))
-    LOG_GROUP=os.environ.get("LOG_GROUP", "-1001234819535")
+    CHAT = int(os.environ.get("CHAT", "-1001601487753"))
+    LOG_GROUP=os.environ.get("LOG_GROUP", "-1001601487753")
 
     #Stream 
     STREAM_URL=os.environ.get("STARTUP_STREAM", "http://d2q8p4pe5spbak.cloudfront.net/bpk-tv/9XM/9XM.isml/9XM-audio_208482_und=208000-video=877600.m3u8")
