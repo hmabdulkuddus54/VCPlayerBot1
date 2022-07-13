@@ -40,8 +40,8 @@ class Config:
     SESSION = os.environ.get("SESSION_STRING", "BQBc0eWTfg3zRHHadrBFBkMhtFch9WKeaepEHDy2X7X7fuqyGmGW9N76k_qxpvVvuToBYrt0KcO6xmAhKcf3jP2CoR98tE9udCl9aiREq-5gR_ENtU5XmMLGY9d-SLy1BNPw0JpEiSnEKWpthv6N_0sKMh2IoOISGpo4PtqEVhK0fWJgAoXFBKQMDs3OyeeUsHEdlyZOy0fjgln76nWTenTyHGmgXx4XmehGe3_Wl49emgT8EtMaQDcAhxLdLJz1crSck-ff5ASmveNCQsDBOKQnuF_IZgJ2f5fZfmr3oBQRL4tO6HpHLDFlN41VfB5uJAiQZK3HlCjwzbSdjCREkJLLAAAAATzTsGYA")
 
     #Stream Chat and Log Group
-    CHAT = int(os.environ.get("CHAT", "-1001601487753"))
-    LOG_GROUP=os.environ.get("LOG_GROUP", "-1001601487753")
+    CHAT = int(os.environ.get("CHAT", "-1001672500854"))
+    LOG_GROUP=os.environ.get("LOG_GROUP", "-1001672500854")
 
     #Stream 
     STREAM_URL=os.environ.get("STARTUP_STREAM", "http://d2q8p4pe5spbak.cloudfront.net/bpk-tv/9XM/9XM.isml/9XM-audio_208482_und=208000-video=877600.m3u8")
